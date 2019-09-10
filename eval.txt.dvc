@@ -1,0 +1,17 @@
+md5: d6a97394b9ccc22faefac1fee56f4d19
+cmd: python code/pyprediction.py
+wdir: .
+deps:
+- md5: 02cb58235771c17604c247e7156d4f42
+  path: output/model.pkl
+outs:
+- md5: b86c5dc87f68f87bf034cc921a2f67a3
+  path: prediction/eval.txt
+  cache: true
+  metric: false
+  persist: false
+- md5: 54fbf38cf649866815e0fefc46a1f6c7
+  path: prediction/metrics.json
+  cache: true
+  metric: false
+  persist: false

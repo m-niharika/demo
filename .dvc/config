@@ -1,0 +1,4 @@
+['remote "myremote"']
+url = s3://dvcdataaltran/sourcedata/
+[core]
+remote = myremote

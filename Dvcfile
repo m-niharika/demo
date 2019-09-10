@@ -1,0 +1,23 @@
+md5: 48943f4517e7f9476817464c1af64fdb
+cmd: python code/pyinfer.py
+wdir: .
+deps:
+- md5: c31fe2ffd36c24ac58c6a98cf637364b.dir
+  path: code
+- md5: 02cb58235771c17604c247e7156d4f42
+  path: output/model.pkl
+- md5: b86c5dc87f68f87bf034cc921a2f67a3
+  path: prediction/eval.txt
+- md5: 3429249e902dedc1d1326faf45e43a09
+  path: eval.txt.dvc
+outs:
+- md5: f0a8110001f3096dbf0f85c717496ae6
+  path: output/1
+  cache: true
+  metric: false
+  persist: false
+- md5: feaa4175a482e836bcebd82870bf07c3
+  path: output/2
+  cache: true
+  metric: false
+  persist: false
